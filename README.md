@@ -12,7 +12,7 @@
     gitconfig –global user.name “masukan user name sesuai selera kamu”
     
 4.  Setelah itu klik Enter, dan konfigurasi user.email dengan perintah :
-    gitconfig –global user.name “masukan gmail kamu”
+    ->  gitconfig –global user.name “masukan gmail kamu”
     
     Akan jadi seperti ini
     
@@ -20,14 +20,14 @@
 
 5.  Buka File Explorer, pilih Folder Lab_Pemrograman 1, misal Folder D:\, Klik kanan pada Folder tersebut, Pilih   Git Bash.
 
-    
+    ![Git Bash](https://user-images.githubusercontent.com/56438848/67145698-4a4a8980-f238-11e9-83c5-b4e93b85d7a4.png)
 
-6.  Setelah itu, ketikan perintah   mkdir latihan1   , tekan Enter.
+6.  Setelah itu, ketikan perintah ->  mkdir latihan1   , kemudian tekan Enter.
     Dan setelah perintah tersebut di Enter, ketikan perintah selanjutnya  cd latihan1
 
     ![05](https://user-images.githubusercontent.com/56438848/67145014-33a13400-f232-11e9-9ba5-f66e31335a08.PNG)
 
-7.  Setelah kedua perintah tersesbut dijalankan, ketikan perintah   git init   dan tekan Enter, kemudian Repository baru berhasil dibuat dengan nama .git (didalam file ini, semua perubahan pada setiap pekerjaan akan tersimpan)
+7.  Setelah kedua perintah tersesbut dijalankan, ketikan perintah ->  git init   , dan tekan Enter, kemudian Repository baru berhasil dibuat dengan nama .git (didalam file ini, semua perubahan pada setiap pekerjaan akan tersimpan)
 
     ![06](https://user-images.githubusercontent.com/56438848/67145036-57fd1080-f232-11e9-8db1-641a61a86e66.PNG)
 
@@ -36,52 +36,50 @@
 
                                           + MENAMBAHKAN FIE BARU PADA REPOSITORY +
 
-1.  Disini kita akan mencoba membuat File bernama README.md dengan mengetikan perintah berikut
-    echo "Latihan 1" >>README.md
+8.  Disini kita akan mencoba membuat File bernama README.md dengan mengetikan perintah berikut 
+    ->  echo "Latihan 1" >>README.md
 
     ![07](https://user-images.githubusercontent.com/56438848/67145089-00ab7000-f233-11e9-8d7b-264b38b541e6.PNG)
     
-2.  Setelah mengetikkan perintah diatas, kita akan menambahkan File README.md kedalam GitHub
+9.  Setelah mengetikkan perintah diatas, kita akan menambahkan File README.md kedalam GitHub
 
     ![08](https://user-images.githubusercontent.com/56438848/67145134-8deec480-f233-11e9-96f0-dc7044f9395e.PNG)
     
-3.  Untuk menambah deskripsi pada File README.md, ketikan perintah berikut   git commit -m "masukan deskripsi"
+10.  Untuk menambah deskripsi pada File README.md, ketikan perintah berikut -> git commit -m "masukan deskripsi"
 
     ![09](https://user-images.githubusercontent.com/56438848/67145170-f50c7900-f233-11e9-803e-e009fe7ebb0a.PNG)
 
-4.  Jangan tutup gitbash nya, karna masih ada perintah yang harus dijalankan.
 
 
 
 
                                             + MEMBUAT REPOSITORY PADA GitHub +
 
-1.  Pastikan Laptop/PC anda sudah terkoneksi ke internet, kemudian buka web browser anda, dan ketikan   github.com
 
-    
+12.  Pastikan Laptop/PC anda sudah terkoneksi ke internet, kemudian buka web browser anda, dan ketikan ->  github.com
 
-2.  Buat akun terlebih dahulu dengan memilih SignIn
+13.  Buat akun terlebih dahulu dengan memilih SignIn
 
-3.  Setelah itu, klik icon ( + ) di sebelah kanan atas, pilih New Repository
+14.  Setelah kamu berhasil membuat akun, Login GitHub, kemudian klik icon ( + ) di sebelah kanan atas, pilih New Repository
 
     ![New Repo](https://user-images.githubusercontent.com/56438848/67145306-4c5f1900-f235-11e9-8ed5-3b114ccd4b13.png)
 
-4.  Isi nama Repository nya, misal labpy, lalu yang lain biarkan saja, scroll kebawah dan klik Creater Repository
+15.  Isi nama Repository nya, misal labpy, lalu yang lain biarkan saja, scroll kebawah dan klik Creater Repository
 
+    ![New Repo 2](https://user-images.githubusercontent.com/56438848/67145461-ad3b2100-f236-11e9-9403-09ef6120bf91.PNG)
 
+16.  Kemudian buka gitbash yang tadi, kemudian masukkan perintah -> git remote add origin (url GitHub kamu tanpa tanda kurung)
+      Contoh :  $ git remote add origin https://github.com/StvnRD/labpy.git
 
-5.  Kemudian buka gitbash yang tadi, kemudian masukkan perintah   git remote add origin [url GitHub kamu]
+17.  Setelah itu, ketikan perintah -> git push -u origin master   perintah ini akan meminta anda memasukkan email dan password
+     akun GitHub yang tadi anda buat.
 
+18.  Setelah itu, buka GitHub lagi, dan kemudian lihat hasilnya :)
 
+    ![12](https://user-images.githubusercontent.com/56438848/67145379-09517580-f236-11e9-8a45-ab4ee5140084.PNG)
 
-6.  Setelah itu, ketikan perintah   git push -u origin master   perintah ini akan meminta anda memasukkan email dan password akun GitHub yang tadi anda buat.
-
-7.  Setelah itu, buka GitHub lagi, dan kemudian lihat hasilnya :)
-
-![12](https://user-images.githubusercontent.com/56438848/67145379-09517580-f236-11e9-8a45-ab4ee5140084.PNG)
-
-
-
+19.  Langkah terakhir yaitu melakukan clone, guna meng-copy Repository server secara otomatis ke Folder Explorer dengan perintah
+    ->  git clone (ketikan url GitHub kamu tanpa tanda kurung)
 
 
    
